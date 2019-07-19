@@ -58,8 +58,9 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 
 因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。若我们设 $\delta=1-m^2$，代入上式可得：
 
-$$r\left(m+n\right)\left[\right]$$
+$$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MTA5NDYsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbLTQ2MDA3MDc0Nyw2MDYxMDk0Niw3MjEyMz
+AxMzldfQ==
 -->
