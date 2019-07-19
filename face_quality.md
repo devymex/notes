@@ -66,11 +66,11 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 
 如果矩阵的秩为 $r$ 那么它一定具有 $r$ 个非零奇异值，所以 $\text{rank}\left(F\right)$ 就是 $F$ 中非零奇异值的数量，那么优化问题即可转化为「优化奇异值之和」，这个和又被称为「核范数」：
 $$\|F\|_*=\sum_{k=1}^n\sigma_k\left(F\right)$$
-其中 $\sigma_k\left(F\right)$ 表示
+其中 $\sigma_k\left(F\right)$ 表示 $F$ 中第 $k$ 大的奇异值。
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYxMDQ0NzAsLTQ0MzYxNjk4NSwxNj
+eyJoaXN0b3J5IjpbLTEwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNj
 I2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEz
 OV19
 -->
