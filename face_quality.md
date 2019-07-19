@@ -45,7 +45,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\lef
 
 **Kendall tau 距离**：给定两个评分列表 $\tau_1$ 和 $\tau_2$ ，它们之间的归一化的 Kendall tau 距离 $K$ 定义如下：
 $$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}^m{\bar{K}_{ij}\left(\tau_1,\tau_2\right)}}\space,$$
-其中 $\bar{K}_{ij}\left(\tau_1,\tau_2\right)$
+其中，若 $i$ 和 $j$ 在 $\tau_1$ 和 $\tau_2$ 中的位置相同，$\bar{K}_{ij}\left(\tau_1,\tau_2\right)$
 
 定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离的上界为：
 $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
@@ -54,5 +54,5 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjYzNjgxNiw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbLTE0NzIzMzMxMzMsNzIxMjMwMTM5XX0=
 -->
