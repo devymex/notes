@@ -57,9 +57,10 @@ $$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}
 $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
 
 因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。若我们设 $\delta=m^{-2}$，代入上式可得：
-$$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$  aaaaaaaaqqaq
+$$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$ 
+若要使该上界低于 $0.1$ ，即估计的矩阵 $F$ 和真值的差异不超过%10%
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NzAyNzYyLC0yMTMzNzE1MDMyLDYwNj
-EwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbLTEwMTIzNzEzNiwtMjEzMzcxNTAzMiw2MD
+YxMDk0Niw3MjEyMzAxMzldfQ==
 -->
