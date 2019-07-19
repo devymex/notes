@@ -43,9 +43,11 @@ $$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space,$$
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space.$$
 
-要解决这个优化问题，必须先确定以下两个问题：
+要解决这个优化问题，必须先解决以下两个子问题：
  1. 需要多大的规模的 $\Omega$ 才能使估计的 $F$ 是可信的？ 
- 2. 怎样优化？
+ 2. 怎样优化这个非凸函数？
+
+为了解决子问题1，先引入 Kendall tau 距离的定义。
 
 **Kendall tau 距离**：给定两个评分列表 $\tau_1$ 和 $\tau_2$ ，它们之间的归一化的 Kendall tau 距离 $K$ 定义如下：
 $$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}^m{\bar{K}_{ij}\left(\tau_1,\tau_2\right)}}\space,$$
@@ -58,5 +60,5 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc3MjU4ODksNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbLTEwNjY0MDg3Niw3MjEyMzAxMzldfQ==
 -->
