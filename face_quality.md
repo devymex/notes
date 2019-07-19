@@ -45,7 +45,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \text{rank}\left(F\right)+\su
 
 要解决这个优化问题，必须先解决以下两个子问题：
  1. 需要多大的规模的 $\Omega$ 才能使估计的 $F$ 是可信的？ 
- 2. 怎样优化这个非凸函数？
+ 2. 怎样优化这个非凸离散函数？
 
 为了解决子问题1，先引入 Kendall tau 距离的定义。
 
@@ -62,11 +62,11 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 
 论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $m$ 都远小于 $n$，且 $30$ 为常量系数，因此 $O\left(\left|\Omega\right|\right)=rn\log{m}$ ，即对于每个用户只需收集 $r\log{m}$ 数量级的对象评分，即可估计出整个矩阵 $F$ ，且与真值的误差以 $1-m^{-1}$ 的概率小于 $10%$ 。
 
-接下来解决问题2，如何优化该非凸函数。
+接下来解决问题2，如何优化非凸函数(1)。因为 $\text{rank}\left(F\right)$ 是一个离散函数，我们
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1NzIwOTQ0LC00NDM2MTY5ODUsMTYyNj
-g3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzld
-fQ==
+eyJoaXN0b3J5IjpbLTE3NjYxODgyMzEsLTQ0MzYxNjk4NSwxNj
+I2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEz
+OV19
 -->
