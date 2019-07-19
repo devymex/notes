@@ -43,7 +43,8 @@ $$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space,$$
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space.$$
 
-**Kendall tau 距离**：给定两个评分列表 $\tau_1$ 和 $\tau_2$ ，它们之间的归一化的 Kendall tau 距离
+**Kendall tau 距离**：给定两个评分列表 $\tau_1$ 和 $\tau_2$ ，它们之间的归一化的 Kendall tau 距离 $K$ 定义如下：
+$$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum{\sum{\bar{K}_{ij}}}$$
 
 定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离的上界为：
 $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
@@ -52,5 +53,5 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc3MzQxNTAsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbNTEwMjk4OTAsNzIxMjMwMTM5XX0=
 -->
