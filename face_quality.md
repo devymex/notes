@@ -57,10 +57,9 @@ $$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}
 $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
 
 因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。若我们设 $\delta=m^{-2}$，代入上式可得：
-
-$$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
+$$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$   ` yh
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM3MTUwMzIsNjA2MTA5NDYsNzIxMj
-MwMTM5XX0=
+eyJoaXN0b3J5IjpbLTEyMjQ4ODExNzcsLTIxMzM3MTUwMzIsNj
+A2MTA5NDYsNzIxMjMwMTM5XX0=
 -->
