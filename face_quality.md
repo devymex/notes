@@ -35,7 +35,7 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 
 令 $o_j\succ_{u_i}o_k$ 表示用户 $i$ 给对象 $j$ 的评分高于 $k$ ， $\Omega=\left\{\left(u_i,o_j,o_k\right):o_j\succ_{u_i}o_k\right\}$ 为这样一组关系的集合，即「成对」（pairwise）的比较结果 。 $\Omega_t=\left\{\left(j,k\right):o_j\succ_{u_t}o_k\right\}$ 表示用户 $t$ 给对象 $j$ 的评分高于 $k$。
 
-若以获得了一组成对的比较结果 $\Omega$ 作为真值，估计一个评分
+若以获得的一组成对比较结果 $\Omega$ 作为真值，估计一个评分矩阵 $F$ 那么可用下面的式子来评估该矩阵与真值的一致性： $$\sum_{\left(i,j,k\right)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjk0MDY4NSw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbMTAwMDUyNDI5MSw3MjEyMzAxMzldfQ==
 -->
