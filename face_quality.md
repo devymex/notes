@@ -31,7 +31,7 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 
 ---
 
-设 $f_i\left(o_j\right)$ 是用户评分函数， $i=1,\dots,n$ 是用户 ID ， $j=1,\dots,m$ 是对象 ID。$$
+设 $f_i\left(o_j\right)$ 是用户评分函数， $i=1,\dots,n$ 是用户 ID ， $j=1,\dots,m$ 是对象 ID。令 $\textbf{f}_i$ 表示向量 $\left(\right)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NDczNzAxLDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbLTI1ODU2NjQwNCw3MjEyMzAxMzldfQ==
 -->
