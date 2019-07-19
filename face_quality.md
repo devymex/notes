@@ -41,7 +41,7 @@ $$\sum_{\left(i,j,k\right)\in\Omega}{L\left(F_{i,j}-F_{i,k}\right)}$$
 式中 $l$ 为某一损失函数。
 
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
-$$min$$
+$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTAwMDcwMCw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbLTE0NTM5MDM1NDIsNzIxMjMwMTM5XX0=
 -->
