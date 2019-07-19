@@ -87,11 +87,12 @@ $$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
 $$\partial\left|F\right|_{tr}=UV^T$$
 推导过程参见 https://math.stackexchange.com/a/701104
 
+
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjI3MDg2OCwtMjE0MTM4NTU0Nyw3Mj
-QyOTcyNTIsLTcxMTU3NjczOSwtODMzNTM2NTEwLDEzNTM3NTcy
-NCwzMjA4NzI4MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNj
-I2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEz
-OV19
+eyJoaXN0b3J5IjpbLTIwMjMzMDcwOTgsLTIxNDEzODU1NDcsNz
+I0Mjk3MjUyLC03MTE1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3
+MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMT
+YyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAx
+MzldfQ==
 -->
