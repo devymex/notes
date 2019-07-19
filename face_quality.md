@@ -84,13 +84,14 @@ $$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
 可知次梯度是一个不唯一，且小于梯度的向量。
 
 函数的次梯度不能直接算出，要根据具体问题具体分析。Watson1992 利用变分法给出了迹范数的次梯度形式
-$\partial\left|F\right|_{tr}=\left\{UV^T+\Sigma:U^T\Sigma=0,\Sigma V=0,\left|\Sigma\right|_2\le1\right\}$
-
+$$\partial\left|F\right|_{tr}=UV^T$$
+推导过程参见 https://math.stackexchange.com/a/701104
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDEzODU1NDcsNzI0Mjk3MjUyLC03MT
-E1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4
-LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMj
-EzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbMTY4MjI3MDg2OCwtMjE0MTM4NTU0Nyw3Mj
+QyOTcyNTIsLTcxMTU3NjczOSwtODMzNTM2NTEwLDEzNTM3NTcy
+NCwzMjA4NzI4MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNj
+I2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEz
+OV19
 -->
