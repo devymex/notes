@@ -43,6 +43,8 @@ $$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space,$$
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space.$$
 
+要解决这个优化问题，必须先确定 1) 需要多少
+
 **Kendall tau 距离**：给定两个评分列表 $\tau_1$ 和 $\tau_2$ ，它们之间的归一化的 Kendall tau 距离 $K$ 定义如下：
 $$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}^m{\bar{K}_{ij}\left(\tau_1,\tau_2\right)}}\space,$$
 其中，若 $i$ 和 $j$ 在 $\tau_1$ 和 $\tau_2$ 中的位置相同，$\bar{K}_{ij}\left(\tau_1,\tau_2\right)=0$ ，否则为 $1$ 。
@@ -54,5 +56,5 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNTM0MTgwLDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbLTE5NDk5ODk2MjAsNzIxMjMwMTM5XX0=
 -->
