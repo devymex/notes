@@ -41,7 +41,7 @@ $$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space,$$
 式中 $l$ 为某一损失函数。
 
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
-$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space.$$
+$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \text{rank}\left(F\right)+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space.$$
 
 要解决这个优化问题，必须先解决以下两个子问题：
  1. 需要多大的规模的 $\Omega$ 才能使估计的 $F$ 是可信的？ 
@@ -64,6 +64,7 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 
 接下来解决问题2，如何优化该非凸函数。令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMT
-MzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbNTI0MTc4NDEwLC00NDM2MTY5ODUsMTYyNj
+g3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzld
+fQ==
 -->
