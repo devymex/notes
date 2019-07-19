@@ -72,7 +72,7 @@ $$|F|_*=\sum_{k=1}^{\min{\left(m,n\right)}}\sigma_k\left(F\right)$$
 $$\sum_{k=1}^{\min{\left(m,n\right)}}\sigma_k\left(F\right)=\text{trace}\left(\sqrt{F^TF}\right)=\left|F\right|_{tr}$$
 
 
-故前述优化问题可表述如下：
+故前述优化问题可表述为求如下目标函数 $L\left(F\right)$ 的最小值：
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\;\;\;\;(1)$$
 
 但迹范数虽然连续，但仍不可微。为了利用梯度下降法对此问题进行迭代优化，下面引入「次梯度」概念。
@@ -88,11 +88,12 @@ $$\partial\left|F\right|_{tr}=UV^T$$
 推导过程参见 https://math.stackexchange.com/a/701104
 
 
+
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMzMDcwOTgsLTIxNDEzODU1NDcsNz
-I0Mjk3MjUyLC03MTE1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3
-MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMT
-YyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAx
-MzldfQ==
+eyJoaXN0b3J5IjpbNjc4MTExNjk3LC0yMDIzMzA3MDk4LC0yMT
+QxMzg1NTQ3LDcyNDI5NzI1MiwtNzExNTc2NzM5LC04MzM1MzY1
+MTAsMTM1Mzc1NzI0LDMyMDg3MjgyOCwtMTA4NTA3NDI1OCwtND
+QzNjE2OTg1LDE2MjY4Nzk4OTEsLTIxMzM3MTUwMzIsNjA2MTA5
+NDYsNzIxMjMwMTM5XX0=
 -->
