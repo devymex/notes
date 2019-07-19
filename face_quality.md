@@ -60,8 +60,10 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$ 
 若要使该上界低于 $0.1$ ，即估计的矩阵 $F$ 和真值的差异不超过 $10%$， 需使 $\left|\Omega\right|\ge 30r\left(m+n\right)\log{m}$。
 
-论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $m$ 都远小于 $n$，且 $30$ 为常量系数，因此 $O\left(\left|\Omega\right|\right)=rn\log{m}$ ，即对于每个用户只需收集 $r\log{m}$ 个对象的评分，即可估计出整个矩阵 $F$ ，且与真值的误差以 $1-m^{-1}$ 的概率小于 $10%$ 。
+论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $m$ 都远小于 $n$，且 $30$ 为常量系数，因此 $O\left(\left|\Omega\right|\right)=rn\log{m}$ ，即对于每个用户只需收集 $r\log{m}$ 数量级的对象评分，即可估计出整个矩阵 $F$ ，且与真值的误差以 $1-m^{-1}$ 的概率小于 $10%$ 。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjMyNTc2NSwxNjI2ODc5ODkxLC0yMT
+eyJoaXN0b3J5IjpbLTg4MDE0NTg2OSwxNjI2ODc5ODkxLC0yMT
 MzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
 -->
