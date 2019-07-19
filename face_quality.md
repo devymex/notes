@@ -75,7 +75,7 @@ $$\sum_{k=1}^{\min{\left(m,n\right)}}\sigma_k\left(F\right)=\text{trace}\left(\s
 故前述优化问题可表述如下：
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\;\;\;\;(1)$$
 
-为了利用梯度下降法对此问题进行迭代优化，要引入「次梯度」概念。
+人为了利用梯度下降法对此问题进行迭代优化，要引入「次梯度」概念。
 
 向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式 $f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right)$，$\forall y$。
 
@@ -85,8 +85,8 @@ $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\righ
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTU3NjczOSwtODMzNTM2NTEwLDEzNT
-M3NTcyNCwzMjA4NzI4MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4
-NSwxNjI2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMT
-IzMDEzOV19
+eyJoaXN0b3J5IjpbLTE5OTk5MzI4OTMsLTcxMTU3NjczOSwtOD
+MzNTM2NTEwLDEzNTM3NTcyNCwzMjA4NzI4MjgsLTEwODUwNzQy
+NTgsLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMTMzNzE1MDMyLD
+YwNjEwOTQ2LDcyMTIzMDEzOV19
 -->
