@@ -56,10 +56,10 @@ $$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}
 定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离以概率 $1-\delta$ 具有上界：
 $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
 
-因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。
+因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。若我们设 $\delta$ 为 $1-m^2$，代入上式可得：
 
-若我们设 $\de
+$$$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NDY3MzM5LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbMTcyOTYwMTU0MCw3MjEyMzAxMzldfQ==
 -->
