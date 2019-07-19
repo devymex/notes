@@ -77,7 +77,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\le
 
 但迹范数虽然连续，但仍不可微。为了利用梯度下降法对此问题进行迭代优化，下面引入「次梯度」概念。
 
-向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式 $f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right)$，$\forall y$。
+向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式 $f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right)$，$\forall y\in$。
 
 Watson1992 证明了迹范数的次微分形式
 $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\right\}$
@@ -85,8 +85,8 @@ $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\righ
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0Mjk3MjUyLC03MTE1NzY3MzksLTgzMz
-UzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4
-LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MD
-YxMDk0Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbLTE2Mjg1NzA4NDksNzI0Mjk3MjUyLC03MT
+E1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4
+LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMj
+EzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
 -->
