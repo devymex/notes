@@ -29,17 +29,29 @@ vi /etc/docker/daemon.json
 ```
 
 下载镜像：
+
 ```bash
 sudo docker pull ubuntu:16.04
 sudo docker pull ubuntu:18.04
 ```
 
 启动一个镜像，成为内存中的容器：
+
 ```bash
-sudo docker run -d ubuntu:16.04 /bin/bash
+sudo docker run -d ubuntu:16.04
 ```
 
-进
+查询容器列表：
+
+```bash
+sudo docker ps
+```
+
+进入一个容器：
+
+```bash
+sudo docker exec -it <CONTAINER_ID> /bin/bash
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjA2MzUwMl19
+eyJoaXN0b3J5IjpbOTU4Mjk2ODg4XX0=
 -->
