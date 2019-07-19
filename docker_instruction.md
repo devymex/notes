@@ -59,8 +59,8 @@ sudo docker exec -it <CONTAINER_ID> /bin/bash
 sudo docker kill <CONTAINER_ID>
 ```
 
-如果要在容器中访问nvidia
+如果要在容器中访问 nvidia 驱动，在
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTA2OTc0Nl19
+eyJoaXN0b3J5IjpbLTc0NjI3ODk1OV19
 -->
