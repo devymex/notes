@@ -75,14 +75,16 @@ $$\sum_{k=1}^{\min{\left(m,n\right)}}\sigma_k\left(F\right)=\text{trace}\left(\s
 故前述优化问题可表述如下：
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\;\;\;\;(1)$$
 
-Watson1992 证明了迹范数的亚微分形式
-$\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|\right\}$
+为了利用梯度下降法对此问题进行迭代优化，
+
+Watson1992 证明了迹范数的次微分形式
+$\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\right\}$
 
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDQxMDQ0MSwtODMzNTM2NTEwLDEzNT
-M3NTcyNCwzMjA4NzI4MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4
-NSwxNjI2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMT
-IzMDEzOV19
+eyJoaXN0b3J5IjpbNTgwMzQxNjExLC04MzM1MzY1MTAsMTM1Mz
+c1NzI0LDMyMDg3MjgyOCwtMTA4NTA3NDI1OCwtNDQzNjE2OTg1
+LDE2MjY4Nzk4OTEsLTIxMzM3MTUwMzIsNjA2MTA5NDYsNzIxMj
+MwMTM5XX0=
 -->
