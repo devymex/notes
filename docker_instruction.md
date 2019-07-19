@@ -1,4 +1,4 @@
-安装
+安装：
 ```bash
 sudo apt install docker # 安装默认 docker
 # 以下步骤安装支持 nvidia 显卡的 docker 插件
@@ -9,11 +9,20 @@ sudo apt update
 sudo apt install nvidia-docker2
 ```
 
+编辑配置文件，使 docker 默认加载 nvidia 插件：
+
+
+
 下载镜像：
 ```bash
 sudo docker pull ubuntu:16.04
 sudo docker pull ubuntu:18.04
+```
 
+启动一个镜像，形成内存中的容器：
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNTk4MzI3XX0=
+eyJoaXN0b3J5IjpbLTE4MjE1NTY1OTRdfQ==
 -->
