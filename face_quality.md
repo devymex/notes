@@ -36,12 +36,14 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 令 $o_j\succ_{u_i}o_k$ 表示用户 $i$ 给对象 $j$ 的评分高于 $k$ ， $\Omega=\left\{\left(u_i,o_j,o_k\right):o_j\succ_{u_i}o_k\right\}$ 为这样一组关系的集合，即「成对」（pairwise）的比较结果 。 $\Omega_t=\left\{\left(j,k\right):o_j\succ_{u_t}o_k\right\}$ 表示用户 $t$ 给对象 $j$ 的评分高于 $k$。
 
 若以获得的一组成对比较结果 $\Omega$ 作为真值，估计一个评分矩阵 $F$ 那么可用下面的式子来评估该矩阵与真值的一致性： 
-$$\sum_{\left(i,j,k\right)\in\Omega}{L\left(F_{i,j}-F_{i,k}\right)}$$
+$$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
 
 式中 $l$ 为某一损失函数。
 
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
-$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left$$
+$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
+
+定理1. 假设 $l\left(z\right)$ 是 hinge loss function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM5MDM1NDIsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbLTE1Nzc4ODM1NjcsNzIxMjMwMTM5XX0=
 -->
