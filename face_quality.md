@@ -44,7 +44,9 @@ $$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
 $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
 
 定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离的上界为：
-$$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right)}{}$$
+$$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}$$
+
+因为 $\left|\Omega\right|=C_$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYyNjk1MDgsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbLTEzMzM0MzI2ODcsNzIxMjMwMTM5XX0=
 -->
