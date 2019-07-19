@@ -77,9 +77,9 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\le
 
 但迹范数虽然连续，但仍不可微。为了利用梯度下降法对此问题进行迭代优化，下面引入「次梯度」概念。
 
-向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式
+向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式：
 $$f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right),\;\;\forall y\in \text{dom}\left(f\right)$$
-对照梯度公式
+对照梯度公式：
 $$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
 可知次梯度是一个不唯一，且小于梯度的向量。
 
@@ -89,8 +89,8 @@ $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\righ
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODY4OTU5Nyw3MjQyOTcyNTIsLTcxMT
-U3NjczOSwtODMzNTM2NTEwLDEzNTM3NTcyNCwzMjA4NzI4Mjgs
-LTEwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMT
-MzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbLTIxMzYxMTY2MzUsNzI0Mjk3MjUyLC03MT
+E1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4
+LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMj
+EzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
 -->
