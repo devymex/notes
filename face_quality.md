@@ -77,7 +77,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\le
 
 为了利用梯度下降法对此问题进行迭代优化，要引入「次梯度」概念。
 
-向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式 $f\left(y\right)\ge f\left(x\right
+向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式 $f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right)$，$\forall y$。
 
 Watson1992 证明了迹范数的次微分形式
 $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\right\}$
@@ -85,8 +85,8 @@ $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\righ
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1NjM0ODUsLTgzMzUzNjUxMCwxMzUzNz
-U3MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUs
-MTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMz
-AxMzldfQ==
+eyJoaXN0b3J5IjpbLTcxMTU3NjczOSwtODMzNTM2NTEwLDEzNT
+M3NTcyNCwzMjA4NzI4MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4
+NSwxNjI2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMT
+IzMDEzOV19
 -->
