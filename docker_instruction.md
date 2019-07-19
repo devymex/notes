@@ -59,8 +59,12 @@ sudo docker exec -it <CONTAINER_ID> /bin/bash
 sudo docker kill <CONTAINER_ID>
 ```
 
-如果要在容器中访问 nvidia 驱动，在
+如果要在容器中访问 nvidia 驱动，需要在容器中设置环境变量：
+
+```bash
+container$ export NVIDIA_VISIBLE_DEVICES=all
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NjI3ODk1OV19
+eyJoaXN0b3J5IjpbLTQzNTIxMjAyOF19
 -->
