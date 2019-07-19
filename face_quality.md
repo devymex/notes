@@ -50,7 +50,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\lef
 为了解决子问题1，先引入 Kendall tau 距离的定义。
 
 **Kendall tau 距离** 给定两个评分列表 $\tau_1$ 和 $\tau_2$ ，它们之间的归一化的 Kendall tau 距离 $K$ 定义如下：
-$$K\left(\tau_1,\tau_2\right)=\frac{2}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}^m{\bar{K}_{ij}\left(\tau_1,\tau_2\right)}}\space,$$
+$$K\left(\tau_1,\tau_2\right)=\frac{1}{m\left(m-1\right)}\sum_{j=1}^m{\sum_{i>j}^m{\bar{K}_{ij}\left(\tau_1,\tau_2\right)}}\space,$$
 其中，若 $i$ 和 $j$ 在 $\tau_1$ 和 $\tau_2$ 中的位置相同，$\bar{K}_{ij}\left(\tau_1,\tau_2\right)=0$ ，否则为 $1$ 。根据 Kendall tau 距离的定义，有以下定理：
 
 定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离以概率 $1-\delta$ 具有上界：
@@ -64,6 +64,6 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 
 接下来解决问题2，如何优化该非凸函数。令$l\left(z\right)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc2NjEwMjksMTYyNjg3OTg5MSwtMj
-EzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbMTg3MDExNTI5MCwxNjI2ODc5ODkxLC0yMT
+MzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
 -->
