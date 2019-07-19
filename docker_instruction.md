@@ -65,8 +65,10 @@ sudo docker kill <CONTAINER_ID>
 container$ export NVIDIA_VISIBLE_DEVICES=all
 ```
 
-也可以将
+也可以将上述命令加入容器的 `~/.bashrc` ，并执行 `source ~/.bashrc`
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc1MDQxMTNdfQ==
+eyJoaXN0b3J5IjpbMjA2NjE1MjY4MF19
 -->
