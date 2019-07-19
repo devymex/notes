@@ -34,10 +34,12 @@ sudo docker pull ubuntu:16.04
 sudo docker pull ubuntu:18.04
 ```
 
-启动一个镜像为内存中的容器：
+启动一个镜像，成为内存中的容器：
 ```bash
-
+sudo docker run -d ubuntu:16.04 /bin/bash
 ```
+
+进
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk4MTY5MDNdfQ==
+eyJoaXN0b3J5IjpbMTk5MjA2MzUwMl19
 -->
