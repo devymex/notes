@@ -87,14 +87,14 @@ $$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
 $$\partial\left|F\right|_{tr}=UV^T$$
 推导过程参见 https://math.stackexchange.com/a/701104
 
-下面计算目标函数后半部分的梯度。引入向量$e_i^n=$因为 $F_{ij}$ 可以表示为 $e_i^nFe_j^m$，
+下面计算目标函数后半部分的梯度。引入 $n$维向量$e_i^n=()$因为 $F_{ij}$ 可以表示为 $e_i^nFe_j^m$，
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，目标函数的后半部分的梯度为：
 $$\frac{\partial}{\partial F}\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
 $$=\sum_{\left(i,j,k\right)\in\Omega}{l'}\left(F_{i,j}-F_{i,k}\right)\left(F_{i,j}-F_{i,k}\right)'$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MDk5NjMzLC0yMDIzMzA3MDk4LC0yMT
-QxMzg1NTQ3LDcyNDI5NzI1MiwtNzExNTc2NzM5LC04MzM1MzY1
-MTAsMTM1Mzc1NzI0LDMyMDg3MjgyOCwtMTA4NTA3NDI1OCwtND
-QzNjE2OTg1LDE2MjY4Nzk4OTEsLTIxMzM3MTUwMzIsNjA2MTA5
-NDYsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbLTE1MTAzNzQ5MjgsLTIwMjMzMDcwOTgsLT
+IxNDEzODU1NDcsNzI0Mjk3MjUyLC03MTE1NzY3MzksLTgzMzUz
+NjUxMCwxMzUzNzU3MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4LC
+00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYx
+MDk0Niw3MjEyMzAxMzldfQ==
 -->
