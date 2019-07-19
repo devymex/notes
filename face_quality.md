@@ -30,6 +30,8 @@ $$A^T=A\space.$$
 $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$ 的特征向量，同理可知 $V$ 是 $M^TM$ 的特征向量。
 
 ---
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbMTE2MDMzNDQ4Nyw3MjEyMzAxMzldfQ==
 -->
