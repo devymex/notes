@@ -62,8 +62,8 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 
 论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $m$ 都远小于 $n$，且 $30$ 为常量系数，因此 $O\left(\left|\Omega\right|\right)=rn\log{m}$ ，即对于每个用户只需收集 $r\log{m}$ 数量级的对象评分，即可估计出整个矩阵 $F$ ，且与真值的误差以 $1-m^{-1}$ 的概率小于 $10%$ 。
 
-
+接下来解决问题2，如何优化该非凸函数。令$l\left(z\right)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDE0NTg2OSwxNjI2ODc5ODkxLC0yMT
-MzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbLTE3Nzc2NjEwMjksMTYyNjg3OTg5MSwtMj
+EzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
 -->
