@@ -80,7 +80,8 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\le
 向量 $g$ 称为函数 $f\left(x\right)$ 在 $x$ 处的次梯度，如果满足次梯度不等式
 $$f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right),\;\;\forall y\in \text{dom}\left(f\right)$$
 对照梯度公式
-$$g^T=\frac{f\left(y\right)-f\left(x\right)}{}$$
+$$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
+可知次梯度是一个不唯一，且小于梯度的向量。其
 
 Watson1992 证明了迹范数的次微分形式
 $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\right\}$
@@ -88,8 +89,8 @@ $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\righ
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExMjIyODgsNzI0Mjk3MjUyLC03MTE1Nz
-Y3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4LC0x
-MDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMz
-cxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbNTk5NjQ0MTAzLDcyNDI5NzI1MiwtNzExNT
+c2NzM5LC04MzM1MzY1MTAsMTM1Mzc1NzI0LDMyMDg3MjgyOCwt
+MTA4NTA3NDI1OCwtNDQzNjE2OTg1LDE2MjY4Nzk4OTEsLTIxMz
+M3MTUwMzIsNjA2MTA5NDYsNzIxMjMwMTM5XX0=
 -->
