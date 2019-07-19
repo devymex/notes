@@ -67,10 +67,11 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 如果矩阵的秩为 $r$ 那么它一定具有 $r$ 个非零奇异值，所以 $\text{rank}\left(F\right)$ 就是 $F$ 中非零奇异值的数量，那么优化问题即可转化为「优化奇异值之和」，这个和又被称为「核范数」：
 $$\|F\|_*=\sum_{k=1}^n\sigma_k\left(F\right)$$
 其中 $\sigma_k\left(F\right)$ 表示 $F$ 中第 $k$ 大的奇异值。实际上，核范数是 $\text{rank}$ 函数的最佳凸松弛，这一技术在 PCA 中也被应用。
+因为
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODcyODI4LC0xMDg1MDc0MjU4LC00ND
-M2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0
-Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbMTY3ODgyMjEyMCwzMjA4NzI4MjgsLTEwOD
+UwNzQyNTgsLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMTMzNzE1
+MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
 -->
