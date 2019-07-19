@@ -31,7 +31,7 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 
 ---
 
-
+设 $f_i\left(o\right)$是用户评分函数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDMzNDQ4Nyw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbMTQyODM0NzUxLDcyMTIzMDEzOV19
 -->
