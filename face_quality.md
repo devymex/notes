@@ -38,7 +38,7 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 若以获得的一组成对比较结果 $\Omega$ 作为真值，估计一个评分矩阵 $F$ 那么可用下面的式子来评估该矩阵与真值的一致性： 
 $$\sum_{\left(i,j,k\right)\in\Omega}{L\left(F_{i,j}-F_{i,k}\right)}$$
 
-式中 $l$ 为某一损失函数，可
+式中 $l$ 为某一损失函数。若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同，$F$ 是一个秩1矩阵
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIyOTM3MzUsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbNzExMDI4NzM3LDcyMTIzMDEzOV19
 -->
