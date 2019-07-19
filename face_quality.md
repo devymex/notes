@@ -81,16 +81,16 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\le
 $$f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right),\;\;\forall y\in \text{dom}\left(f\right)$$
 对照梯度公式
 $$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
-可知次梯度是一个不唯一，且小于梯度的向量。次梯度往往也要通过
+可知次梯度是一个不唯一，且小于梯度的向量。
 
-Watson1992 证明了迹范数的次微分形式
+函数的次梯度不能直接算出，要根据具体问题具体分析。Watson1992 证明了迹范数的次梯度形式
 $\partial\left|F\right|_{tr}=\left\{UV^T+W:U^TW=0,WV=0,\left|W\right|_2\le1\right\}$
 
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1NjE2NTQsNzI0Mjk3MjUyLC03MTE1Nz
-Y3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4LC0x
-MDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMz
-cxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbLTExNTA3MTY2NjksNzI0Mjk3MjUyLC03MT
+E1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4
+LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMj
+EzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
 -->
