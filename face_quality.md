@@ -93,11 +93,12 @@ $$\frac{\partial}{\partial F}\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F
 综上，目标函数的下降梯度为：
 $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\Omega}{\left(F_{i,k}-F_{i,j}\right)e_i^n\left(e_j^m-e_k^m\right)}\right)-U_tV_t^T$$
 
-但是由于奇异值分解算法的时间复杂度为O(nm^2)
+但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwOTYxMDY1LDY4NjAyNjU5NywtMTk2NT
-E0NDQzNywtMjAyMzMwNzA5OCwtMjE0MTM4NTU0Nyw3MjQyOTcy
-NTIsLTcxMTU3NjczOSwtODMzNTM2NTEwLDEzNTM3NTcyNCwzMj
-A4NzI4MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNjI2ODc5
-ODkxLC0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbMTQwMzEwMzQ0MSw2ODYwMjY1OTcsLTE5Nj
+UxNDQ0MzcsLTIwMjMzMDcwOTgsLTIxNDEzODU1NDcsNzI0Mjk3
+MjUyLC03MTE1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMz
+IwODcyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3
+OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ
+==
 -->
