@@ -58,9 +58,11 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 
 因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。若我们设 $\delta=m^{-2}$，代入上式可得：
 $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$ 
-若要使该上界低于 $0.1$ ，即估计的矩阵 $F$ 和真值的差异不超过%10%
+若要使该上界低于 $0.1$ ，即估计的矩阵 $F$ 和真值的差异不超过 $10%$， 需使 $\left|\Omega\right|\ge 30r\left(m+n\right)\log{m}$。
+
+论文中为了突显其方法优势，使用算法复杂度来表示
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIzNzEzNiwtMjEzMzcxNTAzMiw2MD
+eyJoaXN0b3J5IjpbMTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MD
 YxMDk0Niw3MjEyMzAxMzldfQ==
 -->
