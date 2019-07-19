@@ -60,9 +60,9 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$ 
 若要使该上界低于 $0.1$ ，即估计的矩阵 $F$ 和真值的差异不超过 $10%$， 需使 $\left|\Omega\right|\ge 30r\left(m+n\right)\log{m}$。
 
-论文中为了突显其方法优势，使用算法复杂度来表示
+论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $m$ 都远小于 $n$，且 $30$ 为常量系
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MD
-YxMDk0Niw3MjEyMzAxMzldfQ==
+eyJoaXN0b3J5IjpbLTk1ODM2MzI0NiwxNjI2ODc5ODkxLC0yMT
+MzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
 -->
