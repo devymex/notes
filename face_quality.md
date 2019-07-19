@@ -88,11 +88,11 @@ $$\partial\left|F\right|_{tr}=UV^T$$
 推导过程参见 https://math.stackexchange.com/a/701104
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，目标函数的后半部分的梯度为：
-
+$$\frac{\partial}{\partial F}\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}=\sum_{\left(i,j,k\right)\in\Omega}{l'}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTM5Nzg1NiwtMjAyMzMwNzA5OCwtMj
-E0MTM4NTU0Nyw3MjQyOTcyNTIsLTcxMTU3NjczOSwtODMzNTM2
-NTEwLDEzNTM3NTcyNCwzMjA4NzI4MjgsLTEwODUwNzQyNTgsLT
-Q0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMTMzNzE1MDMyLDYwNjEw
-OTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbOTE3ODgzMzc2LC0yMDIzMzA3MDk4LC0yMT
+QxMzg1NTQ3LDcyNDI5NzI1MiwtNzExNTc2NzM5LC04MzM1MzY1
+MTAsMTM1Mzc1NzI0LDMyMDg3MjgyOCwtMTA4NTA3NDI1OCwtND
+QzNjE2OTg1LDE2MjY4Nzk4OTEsLTIxMzM3MTUwMzIsNjA2MTA5
+NDYsNzIxMjMwMTM5XX0=
 -->
