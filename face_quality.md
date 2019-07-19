@@ -33,7 +33,9 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 
 设 $f_i\left(o_j\right)$ 是用户评分函数， $i=1,\dots,n$ 是用户 ID ， $j=1,\dots,m$ 是对象 ID。令 $\textbf{f}_i=\left(f_i\left(o_1\right),\dots,f_i\left(o_m\right)\right)$ 表示用户的评分向量 ， $F=\left(\textbf{f}_1,\dots,\textbf{f}_n\right)^T$ 表示所有用户评分构成的评分矩阵。
 
-假设 $\Omega=\left\{\left(u_i,o_j,o_k\right):o_j\succ_{u_i}o_k\right\}$ 是获取到的所有的「成对」（pairwise）比较结果，即用户 $i$ 给对象 $j$ 的评分高于 $k$ 。我
+设 $\Omega=\left\{\left(u_i,o_j,o_k\right):o_j\succ_{u_i}o_k\right\}$ 是获取到的所有的「成对」（pairwise）比较结果，即用户 $i$ 给对象 $j$ 的评分高于 $k$ 。类似的， $\Omega_t=\left\{\left(j,k\right):o_j\succ_{u_t}o_k\right\}$ 表示 用户 $t$ 给对象 $j$ 的评分高于 $k$。
+
+若我们获得了
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQzNTQ3MDUsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbMTY0Mzc0NDQ4MCw3MjEyMzAxMzldfQ==
 -->
