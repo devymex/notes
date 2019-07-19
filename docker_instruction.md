@@ -38,7 +38,7 @@ sudo docker pull ubuntu:18.04
 启动一个镜像，成为内存中的容器：
 
 ```bash
-sudo docker run -d ubuntu:16.04
+sudo docker run -it -d ubuntu:16.04
 ```
 
 查询容器列表：
@@ -52,6 +52,15 @@ sudo docker ps
 ```bash
 sudo docker exec -it <CONTAINER_ID> /bin/bash
 ```
+
+终止一个容器：
+
+```bash
+sudo docker kill <CONTAINER_ID>
+```
+
+如果要在容器中访问nvidia
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4Mjk2ODg4XX0=
+eyJoaXN0b3J5IjpbLTQzMTA2OTc0Nl19
 -->
