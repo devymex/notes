@@ -90,11 +90,12 @@ $$\partial\left|F\right|_{tr}=UV^T$$
 下面计算目标函数后半部分的梯度。引入 $n$ 维向量 $e_i^n$ ，其第 $i$ 个元素为1，其余元素皆为0，那么 $F_{ij}$ 可以表示为 $e_i^nFe_j^m$。令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为 hinge 损失函数，那么目标函数的后半部分的梯度为：
 $$\frac{\partial}{\partial F}\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}=\sum_{\left(i,j,k\right)\in\Omega}{\left(F_{i,k}-F_{i,j}\right)e_i^n\left(e_j^m-e_k^m\right)}$$
 
-综上，
+综上，目标函数的梯度为：
+$$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\Omega}{\left(F_{i,k}-F_{i,j}\right)e_i^n\left(e_j^m-e_k^m\right)}\right)-U_tV_t^T$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTY4MDgzNCwtMTk2NTE0NDQzNywtMj
-AyMzMwNzA5OCwtMjE0MTM4NTU0Nyw3MjQyOTcyNTIsLTcxMTU3
-NjczOSwtODMzNTM2NTEwLDEzNTM3NTcyNCwzMjA4NzI4MjgsLT
-EwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMTMz
-NzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbNjg2MDI2NTk3LC0xOTY1MTQ0NDM3LC0yMD
+IzMzA3MDk4LC0yMTQxMzg1NTQ3LDcyNDI5NzI1MiwtNzExNTc2
+NzM5LC04MzM1MzY1MTAsMTM1Mzc1NzI0LDMyMDg3MjgyOCwtMT
+A4NTA3NDI1OCwtNDQzNjE2OTg1LDE2MjY4Nzk4OTEsLTIxMzM3
+MTUwMzIsNjA2MTA5NDYsNzIxMjMwMTM5XX0=
 -->
