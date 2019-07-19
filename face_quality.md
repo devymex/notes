@@ -36,17 +36,17 @@ $MM^T=U\Sigma V^*V\Sigma U^*=U\Sigma^2U^*$ ，故 $U$ 是 复对称矩阵 $MM^T$
 令 $o_j\succ_{u_i}o_k$ 表示用户 $i$ 给对象 $j$ 的评分高于 $k$ ， $\Omega=\left\{\left(u_i,o_j,o_k\right):o_j\succ_{u_i}o_k\right\}$ 为这样一组关系的集合，即「成对」（pairwise）的比较结果 。 $\Omega_t=\left\{\left(j,k\right):o_j\succ_{u_t}o_k\right\}$ 表示用户 $t$ 给对象 $j$ 的评分高于 $k$。
 
 若以获得的一组成对比较结果 $\Omega$ 作为真值，估计一个评分矩阵 $F$ 那么可用下面的式子来评估该矩阵与真值的一致性： 
-$$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
+$$\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space,$$
 
 式中 $l$ 为某一损失函数。
 
 若所有用户的偏好都是趋近于一致的，那么矩阵 $F$ 应该是低秩的，特别的，但所有用户的偏好都相同， $F$ 是一个秩 1 矩阵。因此可以将估计 $F$ 的问题转化为一个优化问题：
-$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}$$
+$$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda\left|F\right|_{tr}+\sum_{\left(i,j,k\right)\in\Omega}{l\left(F_{i,j}-F_{i,k}\right)}\space.$$
 
 定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离的上界为：
-$$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}$$
+$$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
 
-因为 $\left|\Omega\right|=C_$ 
+因为 $\left|\Omega\right|=C_{n\times m}^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM0MzI2ODcsNzIxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbMTUzODg3NTI1Nyw3MjEyMzAxMzldfQ==
 -->
