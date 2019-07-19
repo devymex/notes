@@ -68,7 +68,8 @@ $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$
 $$\|F\|_*=\sum_{k=1}^{\min{\left(m,n\right)}}\sigma_k\left(F\right)$$
 其中 $\sigma_k\left(F\right)$ 表示 $F$ 中第 $k$ 大的奇异值。实际上，核范数是 $\text{rank}$ 函数的最佳凸松弛，这一技术在 PCA 中也被应用。
 
-因为奇异值和特征值的相关性，且矩阵的特征值之和等于迹，所以核范数又被称为「迹范数」。
+因为奇异值和特征值的相关性，且矩阵的特征值之和等于迹，所以核范数又被称为「迹范数」：
+$$\sum_{k=1}^{\min{\left(m,n\right)}}\sigma_k\left(F\right)$$
 
 
 故前述优化问题可表述如下：
@@ -78,7 +79,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \left|F\right|_{tr}+\sum_{\le
 
 令$l\left(z\right)=\max{\left(0,1-z\right)}$ 为hinge 损失函数，希望可以
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjQ3NjIwNywxMzUzNzU3MjQsMzIwOD
+eyJoaXN0b3J5IjpbMTM2MDI5MzI3MiwxMzUzNzU3MjQsMzIwOD
 cyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5
 MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ==
 -->
