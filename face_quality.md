@@ -53,7 +53,7 @@ $$\min_{F\in\R^{n\times m}}L\left(F\right)=\lambda \text{rank}\left(F\right)+\su
 $$K\left(\tau_1,\tau_2\right)=\frac{1}{C_m^2}\sum_{j=1}^m{\sum_{i>j}^m{\bar{K}_{ij}\left(\tau_1,\tau_2\right)}}\space,$$
 其中，若 $i$ 和 $j$ 在 $\tau_1$ 和 $\tau_2$ 中的顺序相同，$\bar{K}_{ij}\left(\tau_1,\tau_2\right)=0$ ，否则为 $1$ 。根据 Kendall tau 距离的定义，有以下定理：
 
-定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且$\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么 估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离以概率 $1-\delta$ 具有上界：
+定理1. 设 $l\left(z\right)$ 是 hinge loss function，若 $F$ 的秩最大为 $r$，且 $\Omega$ 是以均匀分布随机投取的成对比较结果集合，那么估计矩阵 $F$ 和真值矩阵 $\hat{F}$ 之间的 Kendall tau 距离以概率 $1-\delta$ 具有上界：
 $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left|\Omega\right|}\space.$$
 
 因为 $\left|\Omega\right|=nC_m^2$ ，所以上述距离的范围是 $\left[0,1\right]$ 。若我们设 $\delta=m^{-2}$，代入上式可得：
@@ -95,7 +95,7 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDk1NDY0MywtNDgwNzI3ODk3LDg4OT
+eyJoaXN0b3J5IjpbMTg1MDY4NjMxMywtNDgwNzI3ODk3LDg4OT
 Y2NDkwMSwxNDAzMTAzNDQxLDY4NjAyNjU5NywtMTk2NTE0NDQz
 NywtMjAyMzMwNzA5OCwtMjE0MTM4NTU0Nyw3MjQyOTcyNTIsLT
 cxMTU3NjczOSwtODMzNTM2NTEwLDEzNTM3NTcyNCwzMjA4NzI4
