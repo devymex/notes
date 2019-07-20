@@ -38,7 +38,7 @@ sudo docker pull ubuntu:18.04
 启动一个镜像，成为内存中的容器：
 
 ```bash
-sudo docker run -it -d ubuntu:16.04
+sudo docker run -d ubuntu:16.04 tail -f /dev/null
 ```
 
 查询容器列表：
@@ -75,5 +75,6 @@ sudo docker commit <CONTAINER_ID> <IMAGE_NAME> # 若镜像名已存在，则该�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzkzMjUsMjA2NjE1MjY4MF19
+eyJoaXN0b3J5IjpbLTY3NTg2NDU0MiwtNTA3OTMyNSwyMDY2MT
+UyNjgwXX0=
 -->
