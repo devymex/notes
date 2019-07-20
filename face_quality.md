@@ -83,7 +83,7 @@ $$f\left(y\right)\ge f\left(x\right)+g^T\left(y-x\right),\;\;\forall y\in \text{
 $$f'\left(x\right)=\frac{f\left(y\right)-f\left(x\right)}{y-x}$$
 可知次梯度是一个不唯一，且小于梯度的向量。
 
-函数的次梯度不能直接算出，要根据具体问题具体分析。Watson1992 利用变分法给出了迹范数的次梯度形式
+函数的次梯度不是确定解，不能直接算出，要根据具体问题具体分析。Watson1992 利用变分法给出了一个有效的迹范数的次梯度形式
 $$\partial\left|F\right|_{tr}=UV^T$$
 推导过程参见 https://math.stackexchange.com/a/701104
 
@@ -95,10 +95,10 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzEwMzQ0MSw2ODYwMjY1OTcsLTE5Nj
-UxNDQ0MzcsLTIwMjMzMDcwOTgsLTIxNDEzODU1NDcsNzI0Mjk3
-MjUyLC03MTE1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3MjQsMz
-IwODcyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMTYyNjg3
-OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAxMzldfQ
-==
+eyJoaXN0b3J5IjpbODg5NjY0OTAxLDE0MDMxMDM0NDEsNjg2MD
+I2NTk3LC0xOTY1MTQ0NDM3LC0yMDIzMzA3MDk4LC0yMTQxMzg1
+NTQ3LDcyNDI5NzI1MiwtNzExNTc2NzM5LC04MzM1MzY1MTAsMT
+M1Mzc1NzI0LDMyMDg3MjgyOCwtMTA4NTA3NDI1OCwtNDQzNjE2
+OTg1LDE2MjY4Nzk4OTEsLTIxMzM3MTUwMzIsNjA2MTA5NDYsNz
+IxMjMwMTM5XX0=
 -->
