@@ -60,7 +60,7 @@ $$\frac{r\left(m+n\right)\left[\log{m}+\log{\left(1/\delta\right)}\right]}{\left
 $$\frac{3r\left(m+n\right)\log{m}}{\left|\Omega\right|}$$ 
 若要使该上界低于 $0.1$ ，即估计的矩阵 $F$ 和真值的差异不超过 $10%$， 需使 $\left|\Omega\right|\ge 30r\left(m+n\right)\log{m}$。
 
-论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $m$ 都远小于 $n$，且 $30$ 为常量系数，因此 $O\left(\left|\Omega\right|\right)=rn\log{m}$ ，即对于每个用户只需收集 $r\log{m}$ 数量级的对象评分，即可估计出整个矩阵 $F$ ，且与真值的误差以 $1-m^{-1}$ 的概率小于 $10%$ 。
+论文中为了突显其方法优势，使用算法复杂度来表示 $\left|\Omega\right|$ 的规模：因为 $r$ 和 $n$ 都远小于 $m$，且 $30$ 为常量系数，因此 $O\left(\left|\Omega\right|\right)=rn\log{m}$ ，即对于每个用户只需收集 $r\log{m}$ 数量级的对象评分，即可估计出整个矩阵 $F$ ，且与真值的误差以 $1-m^{-1}$ 的概率小于 $10%$ 。
 
 接下来解决问题2，如何优化函数(1)。
 
@@ -95,10 +95,10 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NjY0OTAxLDE0MDMxMDM0NDEsNjg2MD
-I2NTk3LC0xOTY1MTQ0NDM3LC0yMDIzMzA3MDk4LC0yMTQxMzg1
-NTQ3LDcyNDI5NzI1MiwtNzExNTc2NzM5LC04MzM1MzY1MTAsMT
-M1Mzc1NzI0LDMyMDg3MjgyOCwtMTA4NTA3NDI1OCwtNDQzNjE2
-OTg1LDE2MjY4Nzk4OTEsLTIxMzM3MTUwMzIsNjA2MTA5NDYsNz
-IxMjMwMTM5XX0=
+eyJoaXN0b3J5IjpbLTQ4MDcyNzg5Nyw4ODk2NjQ5MDEsMTQwMz
+EwMzQ0MSw2ODYwMjY1OTcsLTE5NjUxNDQ0MzcsLTIwMjMzMDcw
+OTgsLTIxNDEzODU1NDcsNzI0Mjk3MjUyLC03MTE1NzY3MzksLT
+gzMzUzNjUxMCwxMzUzNzU3MjQsMzIwODcyODI4LC0xMDg1MDc0
+MjU4LC00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMzcxNTAzMi
+w2MDYxMDk0Niw3MjEyMzAxMzldfQ==
 -->
