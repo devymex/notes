@@ -67,8 +67,11 @@ container$ export NVIDIA_VISIBLE_DEVICES=all
 
 也可以将上述命令加入容器的 `~/.bashrc` ，并执行 `source ~/.bashrc`
 
+将变更后的容器保存为镜像
 
-
+```bash
+sudo docker commit <C>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjE1MjY4MF19
+eyJoaXN0b3J5IjpbMTAyNzk3OTkwMiwyMDY2MTUyNjgwXX0=
 -->
