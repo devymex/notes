@@ -2,7 +2,7 @@
 
 人脸质量模型，是对输入的人脸图像的质量进行估计，得到质量评分，然后根据评分决定该人脸图像后续的处理过程（丢弃或送入识别模型），或着用于在一个 ID 的视频序列中挑选出一张质量最高的图像。
 
-大体有三大类方法：一是使用分辨率、角度、光照等参考来衡量人脸图像质量；另一类是将评估对象和挑选出的一个「标准」脸图像进行比较，用它们之间的区分度来衡量人脸质量；第三类是利用一个模型，对一幅人脸图像
+大体有三大类方法：一是使用分辨率、角度、光照等参考来衡量人脸图像质量；另一类是将评估对象和挑选出的一个「标准」脸图像进行比较，用它们之间的区分度来衡量人脸质量；第三类是利用一个模型，对一幅人脸图像直接评估质量分数。
 
 
 
@@ -105,7 +105,7 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODIwODcxOSwyNjE0NDA2MTMsLTMzMD
+eyJoaXN0b3J5IjpbMTU2NTEyMTcxNSwyNjE0NDA2MTMsLTMzMD
 Y3NjQ2NywxNTIwMzU0OTE0LDE4NTA2ODYzMTMsLTQ4MDcyNzg5
 Nyw4ODk2NjQ5MDEsMTQwMzEwMzQ0MSw2ODYwMjY1OTcsLTE5Nj
 UxNDQ0MzcsLTIwMjMzMDcwOTgsLTIxNDEzODU1NDcsNzI0Mjk3
