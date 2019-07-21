@@ -1,3 +1,7 @@
+# 一、总问题
+
+建立一个模型，对输入的人脸图像的质量进行估计，得到质量评分，然后根据评分决定该人脸图像后续的处
+
 参考：[线性代数的直觉](https://limuzhi.com/2018/07/15/Linear-algebra-feeling/)
 
 **实对称矩阵**：元素都为实数的矩阵，且转置矩阵和自身相等的矩阵：
@@ -95,10 +99,11 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDY4NjMxMywtNDgwNzI3ODk3LDg4OT
-Y2NDkwMSwxNDAzMTAzNDQxLDY4NjAyNjU5NywtMTk2NTE0NDQz
-NywtMjAyMzMwNzA5OCwtMjE0MTM4NTU0Nyw3MjQyOTcyNTIsLT
-cxMTU3NjczOSwtODMzNTM2NTEwLDEzNTM3NTcyNCwzMjA4NzI4
-MjgsLTEwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC
-0yMTMzNzE1MDMyLDYwNjEwOTQ2LDcyMTIzMDEzOV19
+eyJoaXN0b3J5IjpbLTU3OTM3MTE3LDE4NTA2ODYzMTMsLTQ4MD
+cyNzg5Nyw4ODk2NjQ5MDEsMTQwMzEwMzQ0MSw2ODYwMjY1OTcs
+LTE5NjUxNDQ0MzcsLTIwMjMzMDcwOTgsLTIxNDEzODU1NDcsNz
+I0Mjk3MjUyLC03MTE1NzY3MzksLTgzMzUzNjUxMCwxMzUzNzU3
+MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4LC00NDM2MTY5ODUsMT
+YyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYxMDk0Niw3MjEyMzAx
+MzldfQ==
 -->
