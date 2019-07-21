@@ -2,7 +2,9 @@
 
 人脸质量模型，是对输入的人脸图像的质量进行估计，得到质量评分，然后根据评分决定该人脸图像后续的处理过程（丢弃或送入识别模型），或着用于在一个 ID 的视频序列中挑选出一张质量最高的图像。
 
-大质有两
+大体有几类方法：
+
+
 
 参考：[线性代数的直觉](https://limuzhi.com/2018/07/15/Linear-algebra-feeling/)
 
@@ -101,7 +103,7 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTY3NjMwOCwxODUwNjg2MzEzLC00OD
+eyJoaXN0b3J5IjpbMTUyMDM1NDkxNCwxODUwNjg2MzEzLC00OD
 A3Mjc4OTcsODg5NjY0OTAxLDE0MDMxMDM0NDEsNjg2MDI2NTk3
 LC0xOTY1MTQ0NDM3LC0yMDIzMzA3MDk4LC0yMTQxMzg1NTQ3LD
 cyNDI5NzI1MiwtNzExNTc2NzM5LC04MzM1MzY1MTAsMTM1Mzc1
