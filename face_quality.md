@@ -2,7 +2,7 @@
 
 人脸质量模型，是对输入的人脸图像的质量进行估计，得到质量评分，然后根据评分决定该人脸图像后续的处理过程（丢弃或送入识别模型），或着用于在一个 ID 的视频序列中挑选出一张质量最高的图像。
 
-大体有几类方法：
+大体有两大类方法：一是使用人
 
 
 
@@ -103,11 +103,11 @@ $$\frac{\partial L\left(F\right)}{\partial F}=\left(\sum_{\left(i,j,k\right)\in\
 
 但是由于奇异值分解算法的时间复杂度为 $O\left(nm^2\right)$ ，上式仍然难以计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDY3NjQ2NywxNTIwMzU0OTE0LDE4NT
-A2ODYzMTMsLTQ4MDcyNzg5Nyw4ODk2NjQ5MDEsMTQwMzEwMzQ0
-MSw2ODYwMjY1OTcsLTE5NjUxNDQ0MzcsLTIwMjMzMDcwOTgsLT
-IxNDEzODU1NDcsNzI0Mjk3MjUyLC03MTE1NzY3MzksLTgzMzUz
-NjUxMCwxMzUzNzU3MjQsMzIwODcyODI4LC0xMDg1MDc0MjU4LC
-00NDM2MTY5ODUsMTYyNjg3OTg5MSwtMjEzMzcxNTAzMiw2MDYx
-MDk0Nl19
+eyJoaXN0b3J5IjpbMTM0MzcyOTcwMiwtMzMwNjc2NDY3LDE1Mj
+AzNTQ5MTQsMTg1MDY4NjMxMywtNDgwNzI3ODk3LDg4OTY2NDkw
+MSwxNDAzMTAzNDQxLDY4NjAyNjU5NywtMTk2NTE0NDQzNywtMj
+AyMzMwNzA5OCwtMjE0MTM4NTU0Nyw3MjQyOTcyNTIsLTcxMTU3
+NjczOSwtODMzNTM2NTEwLDEzNTM3NTcyNCwzMjA4NzI4MjgsLT
+EwODUwNzQyNTgsLTQ0MzYxNjk4NSwxNjI2ODc5ODkxLC0yMTMz
+NzE1MDMyXX0=
 -->
