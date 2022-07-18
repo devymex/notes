@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T10:07:02.597Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="d7YFv21DxPK5_4zD87bj" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T10:08:18.188Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yOE8uLNl9AkQqIDVaE-o" version="16.5.6" type="github">
   <diagram id="oXYSmh-GCWIDTML4-bH2" name="Page-1">
     <mxGraphModel dx="1422" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kqTDMFvDRpqGVh2tXkA1-17" value="后端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;verticalAlign=top;align=left;spacing=24;" vertex="1" parent="1">
-          <mxGeometry x="200" y="480" width="480" height="440" as="geometry" />
+          <mxGeometry x="200" y="480" width="480" height="420" as="geometry" />
         </mxCell>
         <mxCell id="kqTDMFvDRpqGVh2tXkA1-6" value="云端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;verticalAlign=top;align=left;spacing=24;" vertex="1" parent="1">
           <mxGeometry x="200" y="120" width="480" height="290" as="geometry" />
@@ -46,7 +46,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kqTDMFvDRpqGVh2tXkA1-18" value="&lt;font&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;数据管理 (Python)&lt;br&gt;&lt;/b&gt;&lt;span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 每日定时拉取难例池的所有数据；&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 转换数据格式，整理标签，准备标注；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 管理备份、写入日志。&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
-          <mxGeometry x="440" y="540" width="210" height="100" as="geometry" />
+          <mxGeometry x="440" y="540" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kqTDMFvDRpqGVh2tXkA1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="kqTDMFvDRpqGVh2tXkA1-20" target="kqTDMFvDRpqGVh2tXkA1-26">
           <mxGeometry relative="1" as="geometry">
@@ -59,8 +59,8 @@
         <mxCell id="kqTDMFvDRpqGVh2tXkA1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="kqTDMFvDRpqGVh2tXkA1-26" target="kqTDMFvDRpqGVh2tXkA1-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kqTDMFvDRpqGVh2tXkA1-26" value="&lt;font&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;数据管理 (Python)&lt;br&gt;&lt;/b&gt;&lt;span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 网页标注平台&lt;/span&gt;&lt;span&gt;。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 审核工具。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 将标完的数据提交至训练集中。&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
-          <mxGeometry x="440" y="780" width="210" height="90" as="geometry" />
+        <mxCell id="kqTDMFvDRpqGVh2tXkA1-26" value="&lt;font&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;数据管理 (Flask)&lt;br&gt;&lt;/b&gt;&lt;span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. 网页标注平台&lt;/span&gt;&lt;span&gt;。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. 审核工具。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. 将标完的数据提交至训练集中。&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="440" y="780" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kqTDMFvDRpqGVh2tXkA1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="kqTDMFvDRpqGVh2tXkA1-27" target="kqTDMFvDRpqGVh2tXkA1-29">
           <mxGeometry relative="1" as="geometry" />
